@@ -1,0 +1,50 @@
+.attribution { font-size: 11px; text-align: center; padding: 14px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+body, html {
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+body{
+    background: hsl(212, 45%, 89%) ;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.container{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+
+}
+.content{
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 15px 15px;
+    margin: 50px auto;
+
+}
+.content img{
+    width: 70%;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.container > div{
+    text-align: center;
+}
+
+
+@media (max-width: 520px){
+
+
+}
+
